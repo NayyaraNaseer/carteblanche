@@ -1,0 +1,35 @@
+.container {
+  justify-content: center;
+}
+
+.center {
+  text-align: center;
+  width: 1000px;
+  height: 1000px;
+    display: flex;
+
+}
+
+.btn {
+	background-color: #008B8B;
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+
+.form {
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 400px;
+}
+
+.form2 {
+  text-align: center;
+  margin-top: 150px;
+  margin-left: 250px;
+}
+
+
