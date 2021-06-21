@@ -47,7 +47,6 @@ const SignIn = ({ setAuth }) => {
     <Fragment>
     <div class = "container">
     <div class = "center">
-    //form containing the input fields name and password
     
       <form class = "form" onSubmit={onSubmitForm}>
         <label> <b>Username</b> </label>
@@ -70,7 +69,6 @@ const SignIn = ({ setAuth }) => {
         <button class = "btn">Sign In</button>
 
       <br />
-      //in case the user needs to sign up instead of sign in
       <Link to="/signup"><button class = "btn">New here? Sign up for an account.</button></Link> 
         </form>
       </div>  
