@@ -42,7 +42,6 @@ const ListTodos = ({ allTodos, setTodosChange }) => {
         </thead>
         <tbody>
           {}
-          //table rows
           {todos.length !== 0 &&
             todos[0].dose_id !== null &&
             todos.map(todo => (
@@ -52,7 +51,6 @@ const ListTodos = ({ allTodos, setTodosChange }) => {
                 <td>{todo.doses}</td>
                 <td>{todo.frequency} days</td>
                 <td>
-                //the edit component
                   <EditTodo todo={todo} setTodosChange={setTodosChange} />
                 </td>
                 <td>
