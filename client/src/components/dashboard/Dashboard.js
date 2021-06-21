@@ -63,11 +63,9 @@ const Dashboard = ({ setAuth }) => {
         <div><h3><b>Hello, {name}!</b></h3>
       <h6>Welcome to your medicine dosage tracker!</h6></div>
       
-      //adding the doses part
       <InputTodo setTodosChange={setTodosChange} />
       </div>
       </div>
-      //displaying the doses and updating them part
       <ListTodos allTodos={allTodos} setTodosChange={setTodosChange} />
     </div>
   );
