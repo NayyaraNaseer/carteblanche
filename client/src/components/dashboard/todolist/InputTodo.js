@@ -42,8 +42,6 @@ const InputTodo = ({ setTodosChange }) => {
   return (
     <Fragment>
 
-    //modal to add new records/doses
-
 <button type="button" data-toggle="modal" data-target="#myModal" class = "bttn2">ADD A DOSE</button>
 
 <div id="myModal" class="modal fade" role="dialog">
