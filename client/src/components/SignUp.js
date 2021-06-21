@@ -51,7 +51,6 @@ const SignUp = ({ setAuth }) => {
     <div class = "container">
     <div class = "center">
       <form class = "form" onSubmit={onSubmitForm}>
-      //form containing the input fields for registeration
       <label> <b>Username</b> </label>
         <input
           type="text"
@@ -87,7 +86,6 @@ const SignUp = ({ setAuth }) => {
         <button class = "btn">Sign Up</button>
   
       <br/>
-      //in case the user needs to sign in instead of sign up
       <Link to="/signin"><button class = "btn">Already have an account? Sign in, instead.</button></Link>
           </form>
           </div></div>
