@@ -47,7 +47,6 @@ function App() {
 
   return (
     <Fragment>
-    //setting the routes for the applications
       <Router>
         <div className="container">
           <Switch>
@@ -62,7 +61,6 @@ function App() {
                 )
               }
             />
-            //if at sign in, the user gets authenticated, redirect to the dashboard
             <Route
               exact
               path="/signin"
@@ -74,7 +72,6 @@ function App() {
                 )
               }
             />
-            //if at sign up, the user gets authenticared, redirect to the dashboard
             <Route
               exact
               path="/signup"
@@ -86,7 +83,6 @@ function App() {
                 )
               }
             />
-            //at dashboard, if the user gets unauthenticated (e.g., signs out), redirect to sign in
             <Route
               exact
               path="/dashboard"
